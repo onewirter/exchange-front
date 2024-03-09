@@ -11,6 +11,14 @@
   "keywords": ["pippi", "default"],
   "tokens": [
     {
+      "name": "Cross-Chain DAO",
+      "symbol": "CCDAO",
+      "address": "0xd4d0e5651debcab0d7abfd549bbf2c4154a3442c",
+      "chainId": 128,
+      "decimals": 18,
+      "logoURI": "https://swap.pippi.finance/images/coins/0xd4d0e5651debcab0d7abfd549bbf2c4154a3442c.png"
+    },
+    {
       "name": "ETH",
       "symbol": "ETH",
       "address": "0x64ff637fb478863b7468bc97d30a5bf3a428a1fd",

@@ -11,6 +11,14 @@
   "keywords": ["pippi", "default"],
   "tokens": [
     {
+      "name": "Cross-Chain DAO",
+      "symbol": "CCDAO",
+      "address": "0xee546f831533a913848b72f36a9D5E437F63dbB9",
+      "chainId": 137,
+      "decimals": 18,
+      "logoURI": "https://swap.pippi.finance/images/coins/0xd4d0e5651debcab0d7abfd549bbf2c4154a3442c.png"
+    },
+    {
       "name": "WETH",
       "symbol": "WETH",
       "address": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",

@@ -48,6 +48,14 @@ export const ETH = new Token(
   'Heco-Peg ETH Token'
 )
 
+export const CCDAO = new Token(
+  ChainId.HECO_MAINNET,
+  '0xd4d0e5651debcab0d7abfd549bbf2c4154a3442c',
+  18,
+  'CCDAO',
+  'Cross-Chain DAO'
+)
+
 const WETH_ONLY: ChainTokenList = {
   [ChainId.HECO_MAINNET]: [WETH[ChainId.HECO_MAINNET]],
   [ChainId.OEC_MAINNET]: [WETH[ChainId.OEC_MAINNET]],

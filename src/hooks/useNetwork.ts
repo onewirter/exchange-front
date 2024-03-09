@@ -25,17 +25,17 @@ const NETWORK_NAME_MAPPING = {
 const NATIVE_CURRENCY_MAPPING = {
   [ChainId.HECO_MAINNET]: {
     name: 'HT',
-    Symbol: 'HT',
+    symbol: 'HT',
     decimals: 18
   },
   [ChainId.OEC_MAINNET]: {
     name: 'OKT',
-    Symbol: 'OKT',
+    symbol: 'OKT',
     decimals: 18
   },
   [ChainId.POLYGON]: {
     name: 'MATIC',
-    Symbol: 'MATIC',
+    symbol: 'MATIC',
     decimals: 18
   }
 }
@@ -56,7 +56,7 @@ export const useSwitchNetwork = () => {
             blockExplorerUrls: [NETWORKS[destChainId].explorer]
           }
         ]
-        await window?.ethereum?.request({ method: 'wallet_addEthereumChain', params: data })
+        await (window as any)?.ethereum?.request({ method: 'wallet_addEthereumChain', params: data })
         resolve(true)
       } catch (err) {
         reject(err)

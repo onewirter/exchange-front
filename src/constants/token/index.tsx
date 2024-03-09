@@ -51,7 +51,8 @@ export const pinnedStableCoinPairs = () => {
         18,
         'USDT',
         'Heco-Peg USDTHECO Token'
-      )
+      ),
+      new Token(ChainId.HECO_MAINNET, '0xd4d0e5651debcab0d7abfd549bbf2c4154a3442c', 18, 'CCDAO', 'Cross-Chain DAO')
     ]
   }
 
@@ -65,7 +66,8 @@ export const pinnedStableCoinPairs = () => {
   if (NETWORK_CHAIN_ID === ChainId.POLYGON) {
     return [
       new Token(ChainId.POLYGON, '0x2791bca1f2de4661ed88a30c99a7a9449aa84174', 6, 'USDC', 'USD Coin'),
-      new Token(ChainId.POLYGON, '0xc2132d05d31c914a87c6611c10748aeb04b58e8f', 6, 'USDT', 'OEC-Peg USDT Token')
+      new Token(ChainId.POLYGON, '0xc2132d05d31c914a87c6611c10748aeb04b58e8f', 6, 'USDT', 'OEC-Peg USDT Token'),
+      new Token(ChainId.POLYGON, '0xee546f831533a913848b72f36a9D5E437F63dbB9', 18, 'CCDAO', 'Cross-Chain DAO')
     ]
   }
 }
